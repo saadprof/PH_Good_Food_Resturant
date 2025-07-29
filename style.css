@@ -2,3 +2,13 @@
     margin: 0;
     padding: 0;
 }
+#commont-btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: #52C303;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
