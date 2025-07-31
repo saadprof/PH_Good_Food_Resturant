@@ -11,6 +11,9 @@
     font-weight: bold;
     cursor: pointer;
 }
+body{
+    font-family: sans-serif;
+}
 
 #banner{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0,0,0,0)), url('assets/hero-bg.png');
@@ -28,7 +31,6 @@
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
-    font-family: sans-serif;
 }
 #banner-contents h1{
     margin: 10px 0;
@@ -44,7 +46,6 @@
     width: 70%;
     margin: 10rem auto;
     text-align: center;
-    font-family: sans-serif;
 }
 #main h4{
     color: rgba(0, 0, 0, 0.5);
@@ -85,4 +86,43 @@
     text-align: justify;
     margin-top: 1rem;
     line-height: 1.5rem;
+}
+
+footer #about-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+footer #about-us .left-food-img{
+    width: 50%;
+}
+footer #about-us .right-social-content{
+    width: 50%;
+}
+footer #about-us .right-social-content #social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+footer #about-us .right-social-content #social-container img{
+    width: 5%;
+}
+footer #about-us .right-social-content h1{
+    margin: 1rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+footer #about-us .right-social-content p{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
+footer #about-us .right-social-content h3{
+    margin: 1.5rem 0;
+    padding: 1.5rem 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.7);
 }
